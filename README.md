@@ -1,6 +1,6 @@
 # ResearchPak: Secure R Processing Environment for Sensitive Research Data
 
-[![Security: Audited](https://img.shields.io/badge/Security-Audited-green.svg)](docs/security-reference.md)
+[![Security: Audited](https://img.shields.io/badge/Security-Audited-green.svg)](TECHNICAL-SECURITY-REFERENCE.md)
 [![GDPR: Compliant](https://img.shields.io/badge/GDPR-Compliant-blue.svg)](docs/compliance.md)
 [![R: 4.3+](https://img.shields.io/badge/R-4.3+-blue.svg)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -168,8 +168,9 @@ See the [deployment guide](docs/deployment.md) for detailed installation instruc
 
 ## Documentation
 
-- [Technical Security Reference](docs/security-reference.md) - Detailed security architecture and controls
-- [Roles and User Stories](docs/roles-user-stories.md) - User roles and functionality overview
+- [Technical Security Reference](TECHNICAL-SECURITY-REFERENCE.md) - Detailed security architecture and controls
+- [Roles and User Stories](ROLES-AND-USER-STORIES.md) - User roles and functionality overview
+- [Terminology Guide](TERMINOLOGY.md) - Industry-standard terminology and concepts
 - [API Documentation](docs/api-reference.md) - Package function reference
 - [Deployment Guide](docs/deployment.md) - Installation and configuration
 - [Compliance Guide](docs/compliance.md) - GDPR and regulatory compliance
