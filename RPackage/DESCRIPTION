@@ -1,0 +1,31 @@
+Package: ResearchPak
+Type: Package
+Title: Secure Research Dataset Management with Audit Logging
+Version: 0.1.0
+Authors@R: 
+    person("Your", "Name", , "your.email@example.com", role = c("aut", "cre"))
+Description: A package for secure management of sensitive research datasets with
+    built-in audit logging, parquet file support, and database abstraction layers.
+    Provides tools for data catalog management, statistics computation, and
+    comprehensive query logging for compliance and reproducibility.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    arrow (>= 15.0.0),
+    dplyr (>= 1.1.0),
+    logger (>= 0.3.0),
+    fs (>= 1.6.0),
+    lubridate (>= 1.9.0),
+    tibble (>= 3.2.0),
+    rlang (>= 1.1.0),
+    glue (>= 1.7.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+Depends: 
+    R (>= 4.1.0)
