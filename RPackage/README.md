@@ -15,7 +15,7 @@ Secure research dataset management with comprehensive audit logging for sensitiv
 
 ```r
 # Install from GitHub
-remotes::install_github("yourusername/ResearchPak")
+remotes::install_github("timoruohomaki/ResearchPak")
 ```
 
 ## Quick Start
